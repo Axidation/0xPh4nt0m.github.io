@@ -9,6 +9,7 @@ $("option").on("click", () => {
     switch (ChosenGameIndex) {
         case 0:
             Games.innerHTML = `<embed src="./games/${ChosenGame[ChosenGameIndex].value}.swf" width="550" height="400"> </embed>`
+            console.log("test")
             break;
         case 1:
             break;
