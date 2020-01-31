@@ -2,7 +2,7 @@
 const Games = document.getElementsByClassName("games")[0];
 const gamelist = document.getElementById("gamelist");
 
-$("option").on("click", () => {
+$("#gamelist").on("change", () => {
 
     let ChosenGame = gamelist.options;
     let ChosenGameIndex = gamelist.selectedIndex;
@@ -12,8 +12,10 @@ $("option").on("click", () => {
             console.log("test")
             break;
         case 1:
+            console.log("test 1")
             break;
         case 2:
+            console.log("test2 ")
             break;
         case 3:
             break;
